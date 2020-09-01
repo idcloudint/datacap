@@ -20,23 +20,23 @@ With datacap we can setup a template to set the area for signature and then data
 ## 6. What's the available licensing scheme for IBM Watson Natural Language Understanding (NLU)?  
 We offer this as part of Datacap Insight authorized user license  
 
-## What else besides OCR feature that Datacap can do?
-- ICR (handwriting recognition), OMR (checklist recognition), signature verification
-- Reformatting of data captured during OCR for example reformat date from dd/mm/yyyy to mmddyyyy
-
-## How do you work with low quality images?  
+## 7. What else besides OCR feature that Datacap can do?  
+- ICR (handwriting recognition), OMR (checklist recognition), signature verification  
+- Reformatting of data captured during OCR for example reformat date from dd/mm/yyyy to mmddyyyy  
+  
+## 8. How do you work with low quality images?  
 OCR will not work on low quality images and dirty images. Pre-procesing is required to clean up the source documents and rescanning is required to have a high quality document.   
 You will need to create fingerprint using various DPI values, 200, 300, etc.   
 
  If you decide to retain color for pages that are color, use a loss-less compression such as LZW. Do not use a lossy compression such as JPEG as this will reduce the quality of recognition, even if a high quality compression rate is chosen. Always use a loss-less compression for text that will be recognized.  
   
-## Can we crop & save the face picture from the national ID / Driving License ?  
-Yes we can configure Datacap to crop 
+## 9. Can we crop & save the face picture from the national ID / Driving License ?  
+Yes we can configure Datacap to crop the image as per signature scenario.
 
-## Can we extract information from the bank statement? and what the best practice if there available multiple template for each bank? 
+## 10. Can we extract information from the bank statement? and what the best practice if there available multiple template for each bank? 
 We need to develop the template from each bank  
   
-## How can we improve the performance of Datacap?  
+## 11. How can we improve the performance of Datacap?  
 You need to implement enough rule-runner to enable multi-threading that will run the processes in parallel  
 
 
