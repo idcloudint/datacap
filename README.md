@@ -7,12 +7,8 @@ OCR license is already part of datacap license. Datacap license can be in form o
 To improve the performance you need to implement the rule-runner server so you will be able to run multi-thread process. 
 Since you have big amount of documents, you may create a summary page that contains information that will need to be captured by datacap. 
   
-## 3. - What page identification technique that IBM think will be performance better for our internal document (Contract, National ID) ?  
-
-##   - Can we implement multiple technique in 1 form?  
+## 3. What page identification technique that IBM think will be performance better for our internal document (Contract, National ID) ?  Can we implement multiple technique in 1 form? Is there any differentiation in the pricing scheme for all those available technique? or all those feature available in the default license scheme?  
 Yes, we can combine multiple techniques like template and keyword for a single form. 
-
-##   - Is there any differentiation in the pricing scheme for all those available technique? or all those feature available in the default license scheme?  
 
 ## 4. Can we reorder, split and merge page using Datacap?  
 
