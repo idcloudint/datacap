@@ -5,6 +5,7 @@ OCR license is already part of datacap license. Datacap license can be in form o
   
 ## 2. What's the best practice to managing backlog document? FYI we have 60 Million pages that need to clasify in the 1st year, and around 6 Million in the 2nd year, and around 7 Million in 3rd year with growing rate about 10-15% YOY.  
 To improve the performance you need to implement the rule-runner server so you will be able to run multi-thread process. 
+Since you have big amount of documents, you may create a summary page that contains information that will need to be captured by datacap. 
   
 ## 3. - What page identification technique that IBM think will be performance better for our internal document (Contract, National ID) ?  
 
